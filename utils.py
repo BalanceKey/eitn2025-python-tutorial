@@ -1,4 +1,9 @@
 
+def print_hello():
+    print("Hello world!")
+
+def add_numbers(a, b):
+    return a + b
 
 def youngest(name_age_dict):
     min_age = min(name_age_dict.values())
